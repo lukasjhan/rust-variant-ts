@@ -1,16 +1,33 @@
 {
-  "name": "varient",
+  "name": "rust-variant",
   "version": "0.1.0",
-  "description": "Typescript implementation of Rust's varient, result, and option",
+  "description": "Typescript implementation of Rust's variant, result, and option",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
     "coverage": "vitest run --coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "rust",
+    "variant",
+    "result",
+    "option",
+    "functional",
+    "monad"
+  ],
   "author": "lukas.j.han@gmail.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasjhan/rust-variant-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukasjhan/rust-variant-ts/issues"
+  },
+  "homepage": "https://github.com/lukasjhan/rust-variant-ts#readme",
   "devDependencies": {
     "@vitest/coverage-v8": "^2.0.5",
     "tsx": "^4.19.0",
