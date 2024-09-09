@@ -1,16 +1,20 @@
 {
   "name": "varient",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Typescript implementation of Rust's varient, result, and option",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "tsx index.ts"
+    "build": "tsc",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "lukas.j.han@gmail.com",
+  "license": "MIT",
   "devDependencies": {
+    "@vitest/coverage-v8": "^2.0.5",
     "tsx": "^4.19.0",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   }
 }
